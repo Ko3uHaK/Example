@@ -1,0 +1,7 @@
+
+.vagrant/
+*.log
+*.vm
+*.pub
+*.pem
+*.key
