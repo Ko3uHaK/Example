@@ -34,7 +34,7 @@ module "virtual-machine-1" {
 }
 module "virtual-machine-2" {
   source = "./modules/virtual-machine"
-  vm_names         = ["vm-hadoop-dev-03", "vm-hadoop-test-01"]
+  vm_names         = ["vm-hadoop-dev-03", "vm-hadoop-test-04"]
   location = module.resource-group.location
   resource_group_name = module.resource-group.name
   subnet_id = module.subnet.ids["snet-dev-eastus-02"]
